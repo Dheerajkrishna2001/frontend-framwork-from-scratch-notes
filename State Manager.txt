@@ -2,3 +2,23 @@ State Manager
 
 Dispatcher
 
+Application Instance
+
+- takes three inputs - state, view, reducers
+
+- reducers is an object which contains command name => reducer()
+
+- Class Dispatcher instance is created, and assigned to a variable named       dispatcher.
+
+- All handlers are subscribed using subscribe method.
+
+- returns mount and unmount methods.
+
+- mount takes element and mount it to DOM ..
+
+- unmount destroys the DOM and unsubscribe all.
+
+- when a handler is registered, it returns a function to unsubscribe, so when a component is destroyed, all handlers are unsubscribed.
+
+
+
