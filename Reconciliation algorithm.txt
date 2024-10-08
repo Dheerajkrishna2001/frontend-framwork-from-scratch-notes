@@ -1,0 +1,33 @@
+Reconciliation algorithm
+
+Compares new DOM and previous DOM.
+
+Make the necessary changes, and attaches it to DOM.
+
+This is called reconciliation algorithm.
+
+
+Earlier we used to destroy the DOM completely, and mount it which is not effective.
+
+
+Three Key functions of reconciliation algorithm.
+
+1. Function to find the diff between two objects, returns keys added, removed, whose associated value changed.
+2. find the diff between two arrays, returning items added, removed.
+3. 
+
+ObjectDiff() - returns keys removed, added and values changed for
+
+ex: for attributes of an element.
+
+arrayDiff() - returns the items added and removed.
+
+ex: for class list array.
+
+arrayDiffSequence()
+
+ex: child nodes are removed and added all the times when user interacts with page.
+
+
+
+
